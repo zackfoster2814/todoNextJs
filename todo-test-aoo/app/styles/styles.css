@@ -1,0 +1,19 @@
+/* Custom class for done todo */
+.todo-done {
+  @apply bg-green-100 text-green-800 line-through;
+}
+
+/* Custom class for not-done todo */
+.todo-pending {
+  @apply bg-red-100 text-red-800;
+}
+
+/* Custom container padding */
+.custom-container {
+  @apply p-6 max-w-xl mx-auto bg-white rounded-lg shadow-md;
+}
+
+/* Custom heading */
+.custom-heading {
+  @apply text-3xl font-bold text-center text-gray-800 mb-6;
+}
